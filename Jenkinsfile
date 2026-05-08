@@ -14,14 +14,13 @@ pipeline
            allure commandline: 'allure', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'out/syntax-check/allure']]
            junit 'out/syntax-check/junit/junit.xml'
         }
+        // failure {
+        //     // bat "echo failure"
+        // }
 
-        failure {
-            // bat "echo failure"
-        }
-
-        success {
-            // bat "echo succes"
-        }
+        // success {
+        //     // bat "echo succes"
+        // }
 
     }
 
