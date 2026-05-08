@@ -2,10 +2,10 @@
     "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/vanessa-runner-schema.json",
     "default": {
         "--ibconnection": "/Fbuild/ib",        
-        "--db-user": "",
+        "--db-user": "Teacher",
         "--db-pwd": "",
-        "--root": "C:/repo/jenkins-2025-12",
-        "--workspace": "C:/repo/jenkins-2025-12",
+        "--root": ".",
+        "--workspace": ".",
         "--v8version": "8.3.23.1912",
         "--locale": "ru",
         "--language": "ru",
