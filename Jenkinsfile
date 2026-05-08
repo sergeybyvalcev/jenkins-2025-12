@@ -11,15 +11,16 @@ pipeline
     post {
         
         always {            
-           bat "echo always"
+           allure commandline: 'allure', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'out/syntax-check/allure']]
+           junit 'out/syntax-check/junit/junit.xml'
         }
 
         failure {
-            bat "echo failure"
+            // bat "echo failure"
         }
 
         success {
-            bat "echo succes"
+            // bat "echo succes"
         }
 
     }
@@ -27,8 +28,12 @@ pipeline
     stages {      
         stage("Build test base") {
             steps {                
-                bat "chcp 65001\n vrunner init-dev"
-                //bat "echo Hello, we are learning jenkins"
+                bat "chcp 65001\n vrunner init-dev"                
+            }
+        }
+        stage("Syntax check"){
+            step {
+                bat "chcp 65001\n vrunner syntax-check"
             }
         }
     }
