@@ -36,7 +36,7 @@
 pipeline
 {
     agent {
-        label '1C_agent'
+        label '1c-node'
     }
 
     environment {
