@@ -1,0 +1,44 @@
+{
+"uuid": "25f5e491-030f-4cb9-89b9-3ef0c4d22fa3",
+"historyId": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";.Тесты \"Открытие форм конфигурации\".УпрФорма # Тесты_ОткрытиеФормКонфигурации.Справочник.Склады : открытие формы существующего объекта",
+"name": "Справочник.Склады : открытие формы существующего объекта",
+"fullName": "",
+"start": 1778693792068,
+"stop": 1778693793024,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "epic",
+"value": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";"
+},
+{
+"name": "story",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "feature",
+"value": "Тесты \"Открытие форм конфигурации\""
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "Тесты \"Открытие форм конфигурации\""
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуСуществующегоЭлементаСправочника"
+}

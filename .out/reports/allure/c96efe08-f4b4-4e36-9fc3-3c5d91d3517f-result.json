@@ -1,0 +1,44 @@
+{
+"uuid": "a71c5e0f-4dee-4858-917d-0e0f20b6e533",
+"historyId": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";.smoke.Проверка чтения не-администраторами.Есть роли с полными/администраторскими полномочиями чтения - Проверка доступа на Чтение Не-Администраторами",
+"name": "Есть роли с полными/администраторскими полномочиями чтения - Проверка доступа на Чтение Не-Администраторами",
+"fullName": "",
+"start": 1778693147978,
+"stop": 1778693147978,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "epic",
+"value": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";"
+},
+{
+"name": "story",
+"value": "Проверка чтения не-администраторами"
+},
+{
+"name": "feature",
+"value": "smoke"
+},
+{
+"name": "package",
+"value": "C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\ПроверкаЧтенияНеАдминистраторами.epf"
+},
+{
+"name": "host",
+"value": "smoke"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Тест_РолиОпределены"
+}

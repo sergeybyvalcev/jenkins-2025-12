@@ -1,0 +1,44 @@
+{
+"uuid": "6d0ebbe1-9396-44a1-8576-ca7065426d27",
+"historyId": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";.УпрФорма # тесты_ПроверкаМакетовСКД.Отчеты.Валидация корректности запроса СКД в ВедомостьПоПартиям: СхемаКомпоновкиДанных",
+"name": "Валидация корректности запроса СКД в ВедомостьПоПартиям: СхемаКомпоновкиДанных",
+"fullName": "",
+"start": 1778693156253,
+"stop": 1778693156261,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "epic",
+"value": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";"
+},
+{
+"name": "story",
+"value": "Отчеты"
+},
+{
+"name": "feature",
+"value": "УпрФорма # тесты_ПроверкаМакетовСКД"
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\тесты_ПроверкаМакетовСКД.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # тесты_ПроверкаМакетовСКД"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ПроверитьМакетСКД"
+}

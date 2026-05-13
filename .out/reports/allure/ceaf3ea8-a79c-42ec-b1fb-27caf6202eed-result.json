@@ -1,0 +1,44 @@
+{
+"uuid": "9d5135e3-c95e-414d-b283-b82ded574b17",
+"historyId": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";.УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : ОбщегоНазначения {}",
+"name": "Общий модуль : ОбщегоНазначения {}",
+"fullName": "",
+"start": 1778693156187,
+"stop": 1778693156199,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "[Failed] Переданный параметр (истина) не является Ложью, а хотели, чтобы являлся.\nИспользование в клиенте управляемого приложения {ОбщегоНазначения}",
+"trace": "[Failed] Переданный параметр (истина) не является Ложью, а хотели, чтобы являлся.\nИспользование в клиенте управляемого приложения {ОбщегоНазначения}"
+},
+"status": "broken",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "epic",
+"value": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";"
+},
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ServerModule"
+}

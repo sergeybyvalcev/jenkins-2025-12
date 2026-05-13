@@ -1,0 +1,44 @@
+{
+"uuid": "03b9b513-cacc-4581-a70a-bf29f70dce54",
+"historyId": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";.Тесты \"Открытие форм конфигурации\".УпрФорма # Тесты_ОткрытиеФормКонфигурации.Справочник.Номенклатура : открытие формы списка",
+"name": "Справочник.Номенклатура : открытие формы списка",
+"fullName": "",
+"start": 1778693781866,
+"stop": 1778693790025,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "epic",
+"value": "File=\"C:\\repo\\jenkins-2025-12\\build\\ib\";"
+},
+{
+"name": "story",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "feature",
+"value": "Тесты \"Открытие форм конфигурации\""
+},
+{
+"name": "package",
+"value": "УпрФорма # C:\\Program Files\\OneScript\\lib\\add\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "Тесты \"Открытие форм конфигурации\""
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуПоПолномуИмениФормы"
+}
