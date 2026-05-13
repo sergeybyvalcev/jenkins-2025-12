@@ -11,9 +11,9 @@ pipeline
     post {
         
         always {            
-           allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'],[path: 'build/reports/allurereport']]
+           allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'],[path: 'C:/repo/jenkins-2025-12/out/smoke/allure']]
            junit 'out/syntax-check/junit/junit.xml'           
-           junit 'build/reports/junitreport/*.xml'
+           junit 'C:/repo/jenkins-2025-12/out/smoke/*.xml'
         }
         // failure {
         //     // bat "echo failure"
