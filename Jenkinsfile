@@ -11,9 +11,9 @@ pipeline
     post {
         
         always {            
-           allure includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'out/syntax-check/allure'], [path: 'out/smoke/allure/allure.xml']]
+           allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'], [path: 'out/reports/allure']]
            junit 'out/syntax-check/junit/junit.xml'
-           junit allowEmptyResults: true, testResults: 'out/*.xml'
+           junit 'out/reports/junit/*.xml'
         }
         // failure {
         //     // bat "echo failure"
