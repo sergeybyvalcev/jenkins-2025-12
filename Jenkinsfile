@@ -13,7 +13,7 @@ pipeline
         always {            
            allure includeProperties: false, jdk: '', results: [[path: 'out/syntax-check/allure'],[path: 'C:/repo/jenkins-2025-12/out/smoke/allure']]
            junit 'out/syntax-check/junit/junit.xml'           
-           junit 'C:/repo/jenkins-2025-12/out/smoke/*.xml'
+           junit 'out/smoke/junit/*.xml'
         }
         // failure {
         //     // bat "echo failure"
