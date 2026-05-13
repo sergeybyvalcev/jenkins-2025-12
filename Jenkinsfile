@@ -39,7 +39,19 @@ pipeline
             steps {
                  script {
                     try {
-                        bat "chcp 65001\n runner xunit" 
+                        bat "chcp 65001\n vrunner xunit" 
+                    }
+                    catch (Exception Exc) {
+                        currentBuild.result = 'UNSTABLE'    
+                    }
+                }
+            }
+        }
+        stage("Vanessa") {
+            steps {
+                 script {
+                    try {
+                        bat "chcp 65001\n vrunner vanessa" 
                     }
                     catch (Exception Exc) {
                         currentBuild.result = 'UNSTABLE'    
